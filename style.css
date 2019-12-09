@@ -119,6 +119,9 @@ body{
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
 }
-.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+.hvr-glow:hover, .hvr-glow:focus {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.6);
+}
+ .hvr-glow:active{
+	 transform: scale(0.99, 0.99);
 }
