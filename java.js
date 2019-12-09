@@ -3,6 +3,7 @@ var b = document.getElementById("michael");
 var c = document.getElementById("calum");
 var d = document.getElementById("ash");
 var e = document.getElementById("young");
+var audio = new Audio("images/it-sounds-a-bit-loud-for-an-acoustic-set-calum.mp3") ;
 
 function newImg(){
 	a.src="images/ezgif-6-38aabc66c892.gif";
@@ -25,6 +26,6 @@ function newImg3(){
 }
 
 function newSound(){
-	play()
+	audio.play();
 }
 
